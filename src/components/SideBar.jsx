@@ -9,6 +9,7 @@ const SideBar = ({ children, isOpen, onClickClose }) => {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
+        <div className="text-2xl font-bold">Cart</div>
         <button
           onClick={onClickClose}
           className="text-black font-bold absolute right-4 top-4 p-2"
